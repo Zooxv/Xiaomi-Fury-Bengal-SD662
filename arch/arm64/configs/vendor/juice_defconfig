@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm64 4.19.223 Kernel Configuration
+# Linux/arm64 4.19.224 Kernel Configuration
 #
 
 #
@@ -22,7 +22,7 @@ CONFIG_THREAD_INFO_IN_TASK=y
 #
 CONFIG_INIT_ENV_ARG_LIMIT=32
 # CONFIG_COMPILE_TEST is not set
-CONFIG_LOCALVERSION="-Fury-perf"
+CONFIG_LOCALVERSION="-Juice-Bengal"
 # CONFIG_LOCALVERSION_AUTO is not set
 CONFIG_BUILD_SALT=""
 CONFIG_HAVE_KERNEL_GZIP=y
@@ -1357,7 +1357,8 @@ CONFIG_RFKILL_LEDS=y
 # CONFIG_CEPH_LIB is not set
 # CONFIG_NFC is not set
 # CONFIG_NFC_NQ is not set
-# CONFIG_NFC_ST21NFC is not set
+CONFIG_NFC_ST21NFC=y
+# CONFIG_ESE_ST54J is not set
 # CONFIG_PSAMPLE is not set
 # CONFIG_NET_IFE is not set
 # CONFIG_LWTUNNEL is not set
